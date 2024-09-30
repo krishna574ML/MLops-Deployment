@@ -1,1 +1,43 @@
+# Python-specific files
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test results
+.tox/
+.coverage
+coverage.xml
+test-reports/
+
+# Data files (adjust as needed)
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Jupyter Notebook files (adjust as needed)
+*.ipynb
+.ipynb_checkpoints/
+
+# Git-specific files
+.git/
+.gitignore
 
